@@ -13,8 +13,8 @@ app.get('/',function(req, res){
   res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
-app.get('/projects',function(req, res){
-  res.sendFile(path.join(__dirname+'/public/projects.html'));
+app.get('/exposition',function(req, res){
+  res.sendFile(path.join(__dirname+'/public/exposition.html'));
 });
 
 app.get('/test',function(req, res){
